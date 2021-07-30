@@ -2,4 +2,4 @@
 
 Exercise project assignment including a stylish sidebar navigation.
 
-The "screencapture" PNGs are the template I had to match.
+The "screencapture" PNGs are the templates I had to match.
