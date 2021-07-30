@@ -58,7 +58,7 @@ main > nav {
     content: "◯";
     color: #fff;
     position: absolute;
-    transform: scale(1.5) translate(-11.5px, 0px);
+    transform: scale(1.5) translate(-11.5px, 0.5px);
 
 }
 #sideNav li div {
