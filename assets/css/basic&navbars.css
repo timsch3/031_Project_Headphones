@@ -8,12 +8,13 @@
     padding: 0;
     list-style: none;
     font-family: WorkSans;
-    background-color: #2e2e2e;
     color: #737373;
     text-decoration: none;
 }
-/* ==================== Navbars */
-/* ---------- Top navbar */
+body {
+    background-color: #2e2e2e;
+}
+/* ==================== Top navbar */
 #headerContainer {
     position: fixed;
     width: 100vw;
@@ -23,7 +24,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
-    background-color: none;
 }
 #topNav {
     display: flex;
@@ -45,7 +45,7 @@ header {
     color: #fff;
     text-decoration: underline;
 }
-/* ---------- Left side navbar */
+/* ==================== Left side navbar */
 main > nav {
     position: fixed;
     top: 40vh;
@@ -73,13 +73,3 @@ main > nav {
 #sideNav li a:hover {
     color: #fff;
 }
-
-
-
-/*
-#2e2e2e
-#737373
-#867772
-#ebccc2
-#fff
-*/
