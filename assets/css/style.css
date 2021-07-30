@@ -1,0 +1,85 @@
+@font-face {
+    font-family: WorkSans;
+    src: url(../fonts/WorkSans-VariableFont.ttf);
+}
+/* ==================== CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: WorkSans;
+    background-color: #2e2e2e;
+    color: #737373;
+    text-decoration: none;
+}
+/* ==================== Navbars */
+/* ---------- Top navbar */
+#headerContainer {
+    position: fixed;
+    width: 100vw;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: none;
+}
+#topNav {
+    display: flex;
+    justify-content: space-between;
+}
+#topNav li:first-of-type {
+    padding-right: 60px;
+}
+#topNav li {
+    padding-right: 30px;
+}
+#topNav li:last-of-type {
+    padding-left: 30px;
+}
+#topNav a {
+    transition: all 0.5s;
+}
+#topNav a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+/* ---------- Left side navbar */
+main > nav {
+    position: fixed;
+    top: 40vh;
+    padding-left: 30px;
+}
+#sideNav li span {
+    padding-right: 40px;
+}
+#sideNav li:first-of-type span::after {
+    content: "◯";
+    color: #fff;
+    position: absolute;
+    transform: scale(1.5) translate(-11.5px, 0px);
+
+}
+#sideNav li div {
+    height: 60px;
+    width: 1px;
+    background-color: #737373;
+    margin: 2px 0 20px 8px;
+}
+#sideNav li a {
+    transition: all 0.5s;
+}
+#sideNav li a:hover {
+    color: #fff;
+}
+
+
+
+/*
+#2e2e2e
+#737373
+#867772
+#ebccc2
+#fff
+*/
