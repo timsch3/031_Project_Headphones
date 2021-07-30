@@ -6,39 +6,136 @@
     padding: 15% 0 15% 22%;
     max-width: 40%;
     font-size: 3em;
-    color: #fff;
+    color: #ebccc2;
     font-weight: 300;
 }
 #about > img {
-    width: 100%
+    width: 100%;
+    opacity: 0.8;
 }
-#about > div {
+#about > article {
     display: flex;
     padding: 15% 0 0 15%;
 }
-#about > div div {
+#about > article div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 50px;
 }
-#about > div img {
+#about > article img {
     width: 50%;
 }
-#about > div div h2 {
-    color: #fff;
+#about > article div h2 {
+    color: #ebccc2;
     padding-bottom: 20px;
     font-weight: 300;
     font-size: 2em;
     letter-spacing: 1px;
 }
-#about > div div p {
+#about > article div p {
     line-height: 1.5em;
     padding-bottom: 1em;
 }
-/* ==================== Lounger */
-
-
+/* ==================== Lounger & experience (+ basic shop) */
+#lounger_experience > div {
+    display: flex;
+    padding-right: 87px;
+}
+#lounger_experience > div > article, #shop > div > article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#lounger_experience img, #shop > div > img {
+    width: 55vw;
+    height: 100vh;
+    object-fit: cover;
+    padding-right: 40px;
+    opacity: 0.8;
+    z-index: -1;
+}
+#lounger_experience h1 {
+    color: #ebccc2;
+    font-size: 2em;
+    font-weight: 300;
+    padding-bottom: 120px;
+}
+#lounger_experience p {
+    line-height: 1.5em;
+    padding-bottom: 1em;
+}
+/* ==================== Inspiration */
+#inspiration {
+    padding: 20vh 87px 200px 25vw;
+}
+#inspiration > video {
+    width: 60vw;
+    padding-bottom: 150px;
+}
+#inspiration > h2, #inspiration > h1 {
+    color: #ebccc2;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+}
+#inspiration > h2 {
+    font-size: 1.2em;
+}
+#inspiration > h1 {
+    font-size: 2em;
+    padding-bottom: 30px;
+}
+#inspiration > span {
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 4px 12px;
+}
+#inspiration > p {
+    padding: 20px 0 140px 0;
+}
+/* ---------- Diagonal images and text */
+#inspiration article {
+    display: flex;
+    align-items: center;
+}
+#inspiration article img {
+    max-width: 50%;
+}
+#inspiration article:first-of-type div {
+    padding-left: 20px;
+}
+#inspiration article:last-of-type div {
+    padding-right: 20px;
+}
+#inspiration article h4, #inspiration article h3, #shop > div > article h1 {
+    color: #ebccc2;
+    font-weight: 200;
+    padding: 5px 0;
+    letter-spacing: 1px;
+}
+#inspiration article h3 {
+    padding-bottom: 30px;
+    font-size: 2em;
+}
+#inspiration article p, #shop > div > article p {
+    line-height: 1.5em;
+}
+/* ==================== Shop */
+#shop > div, #shop > div > article {
+    display: flex;
+    align-items: center;
+}
+#shop > div > article p {
+    padding: 10px 0;
+}
+#shop > div > article a {
+    padding: 10px 25px;
+    background-color: #ebccc2;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    color: #000;
+}
 
 /*
 #2e2e2e
