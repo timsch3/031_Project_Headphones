@@ -48,18 +48,11 @@ header {
 /* ==================== Left side navbar */
 main > nav {
     position: fixed;
-    top: 40vh;
+    top: 30vh;
     padding-left: 30px;
 }
 #sideNav li span {
     padding-right: 40px;
-}
-#sideNav li:first-of-type span::after {
-    content: "◯";
-    color: #fff;
-    position: absolute;
-    transform: scale(1.5) translate(-11.5px, 0.5px);
-
 }
 #sideNav li div {
     height: 60px;
@@ -72,4 +65,14 @@ main > nav {
 }
 #sideNav li a:hover {
     color: #fff;
+}
+/* ---------- Active page highlighting */
+#sideNav li:first-of-type {
+    color: #fff;
+}
+#sideNav li:first-of-type span::after {
+    content: "◯";
+    color: #fff;
+    position: absolute;
+    transform: scale(1.5) translate(-11.5px, 0.5px);
 }

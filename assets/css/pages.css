@@ -1,4 +1,43 @@
 /* ==================== About */
+#about {
+    padding: 0 87px 200px;
+}
+#about h1 {
+    padding: 15% 0 15% 22%;
+    max-width: 40%;
+    font-size: 3em;
+    color: #fff;
+    font-weight: 300;
+}
+#about > img {
+    width: 100%
+}
+#about > div {
+    display: flex;
+    padding: 15% 0 0 15%;
+}
+#about > div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+#about > div img {
+    width: 50%;
+}
+#about > div div h2 {
+    color: #fff;
+    padding-bottom: 20px;
+    font-weight: 300;
+    font-size: 2em;
+    letter-spacing: 1px;
+}
+#about > div div p {
+    line-height: 1.5em;
+    padding-bottom: 1em;
+}
+/* ==================== Lounger */
+
 
 
 /*
